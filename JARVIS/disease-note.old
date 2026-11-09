@@ -1,0 +1,19 @@
+name: disease-note
+description: Explain a disease or term: etymology and pathogenesis
+triggers: typed-order, new-empty-note
+keywords: explain, what is, what does, don't get, dont get, mean, disease
+subjects:
+inputs: term
+output: note
+output_folder: /home/prime/Documents/Dentist/Notes/JARVIS_inbox
+filename: {term}.md
+reset_after: 30
+---
+PLACEHOLDER PROMPT (replace with your own).
+Explain the term below for a dental student: first its etymology, then its pathogenesis.
+Stay strictly within the scope of the lesson provided; do not over-explain.
+Write in clean markdown.
+--- followup ---
+New term: {term}
+Under heading: {heading}
+Same lesson, same rules as before.

@@ -1,0 +1,23 @@
+# JARVIS settings. Edit this file when your folders change.
+
+[paths]
+books_dir = "/home/prime/Documents/Dentist/second year/first semester/books"
+notes_dir = "/home/prime/Documents/Dentist/Notes"
+
+[ai]
+model = "qwen2.5:1.5b"
+
+[chat]
+url = "https://chat.deepseek.com"
+browser = "brave"          # command name; falls back to xdg-open if not found
+
+[vault]
+dictionary_suffix = "X_Dictionary"
+subjects = ["Biomaterial", "Dentition", "infection control", "Microbiology", "Pathology", "Pharmacology"]   # folders like Microbiology_Dictionary
+stop_marker = "quizport"            # lesson text is cut before this word
+
+[pdf]
+chunk_words = 5000
+
+[watch]
+interval_seconds = 3
